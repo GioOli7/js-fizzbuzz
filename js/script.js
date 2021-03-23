@@ -8,15 +8,15 @@ for (var i = 1; i <= 100; i++) {
     num = i;
     // se num è divisibile sia per 5 che per 3
     if (num % 3 == 0 & num % 5 == 0) {
-        num = console.log('FizzBuzz');
+        console.log('FizzBuzz');
     } 
     // se num è divisibile per 5
     else if (num % 5 == 0) {
-        num = console.log('Buzz');
+        console.log('Buzz');
     } 
     // se num è divisibile per 3
     else if (num % 3 == 0) {
-        num = console.log('Fizz');
+        console.log('Fizz');
     } 
     // in tutti gli altri casi
     else {
